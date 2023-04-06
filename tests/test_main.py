@@ -6,3 +6,4 @@ def test_health():
 def test_bye():
     response =requests.get(f'{api}/fir_bye')
     assert response.status_code == 200
+#hh
