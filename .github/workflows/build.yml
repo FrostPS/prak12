@@ -15,7 +15,7 @@
         - name: Run
           run: docker run -p 7000:7000 -d frostps/pract12:latest
         - name: ist python
-          uses: actions/setup-python@v4
+          uses: actions/setup-python@v4g
           with:
             python-version: '3.9'
         - name: inst pytest
